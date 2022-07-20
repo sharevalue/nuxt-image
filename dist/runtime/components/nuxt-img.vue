@@ -3,6 +3,7 @@
     :key="nSrc"
     :src="nSrc"
     v-bind="nAttrs"
+    v-on="$listeners"
   >
 </template>
 
